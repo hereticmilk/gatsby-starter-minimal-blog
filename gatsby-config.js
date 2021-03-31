@@ -6,7 +6,7 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `@hereticmilk`,
+    siteTitleAlt: `@hereticmilk про дизайн`,
   },
   plugins: [
     {
@@ -25,8 +25,8 @@ module.exports = {
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/hereticmilk`,
+            name: `Telegram`,
+            url: `https://t.me/hereticmilk`,
           },
           {
             name: `Instagram`,
@@ -47,7 +47,7 @@ module.exports = {
       options: {
         name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
         short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        description: `Блог дизайнера о карьере и жизни среди людей. Личный опыт, полезные материалы и уроки.`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
