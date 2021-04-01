@@ -39,7 +39,7 @@ const SEO = ({
     image: `${siteUrl}${image || defaultImage}`,
   }
   return (
-    <Helmet title={title} defaultTitle={defaultTitle} titleTemplate={`%s | ${siteTitle}`}>
+    <Helmet title={title} defaultTitle={defaultTitle} titleTemplate={`%s | @hereticmilk`}>
       <html lang={siteLanguage} />
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
