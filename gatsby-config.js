@@ -8,9 +8,9 @@ module.exports = {
   siteMetadata: {
     siteTitle: `@hereticmilk`,
     siteTitleAlt: `@hereticmilk`,
-    siteDescription: `Блог дизайнера о карьере и жизни среди людей. Личный опыт и полезные материалы об интерфейсах и технологиях`,
+    siteDescription: `Блог дизайнера о карьере и жизни среди людей. Личный опыт и полезные материалы об интерфейсах и технологиях.`,
     siteLanguage: `ru`,
-    siteImage: `/static/banner.jpg`,
+    siteImage: `/banner.jpg`,
     author: `@hereticmilk`,
   },
   plugins: [
