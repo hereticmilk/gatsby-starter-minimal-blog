@@ -10,7 +10,7 @@ module.exports = {
     siteTitleAlt: `@hereticmilk`,
     siteDescription: `Блог дизайнера о карьере и жизни среди людей. Личный опыт и полезные материалы об интерфейсах и технологиях.`,
     siteLanguage: `ru`,
-    siteImage: `/banner.jpg`,
+    siteImage: `static/banner.jpg`,
     author: `@hereticmilk`,
   },
   plugins: [
