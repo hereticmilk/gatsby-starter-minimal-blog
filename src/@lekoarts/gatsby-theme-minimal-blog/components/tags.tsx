@@ -20,7 +20,7 @@ const Tags = ({ list }: PostsProps) => {
 
   return (
     <Layout>
-      <SEO title="Tags" />
+      <SEO title="Рубрики" />
       <Heading as="h1" variant="styles.h1">
         Tags
       </Heading>
