@@ -22,7 +22,7 @@ const Tags = ({ list }: PostsProps) => {
     <Layout>
       <SEO title="Рубрики" />
       <Heading as="h1" variant="styles.h1">
-        Tags
+        Рубрики
       </Heading>
       <Box mt={[4, 5]}>
         {list.map((listItem) => (
