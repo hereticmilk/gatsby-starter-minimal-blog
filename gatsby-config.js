@@ -6,7 +6,12 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `@hereticmilk про дизайн`,
+    siteTitle: `@hereticmilk`,
+    siteTitleAlt: `@hereticmilk`,
+    siteDescription: `Блог дизайнера о карьере и жизни среди людей. Личный опыт и полезные материалы об интерфейсах и технологиях`,
+    siteLanguage: `ru`,
+    siteImage: `/banner.jpg`,
+    author: `@hereticmilk`,
   },
   plugins: [
     {
@@ -17,6 +22,10 @@ module.exports = {
           {
             title: `Блог`,
             slug: `/blog`,
+          },
+          {
+            title: `Полезное`,
+            slug: `/loot`,
           },
           {
             title: `Автор`,
